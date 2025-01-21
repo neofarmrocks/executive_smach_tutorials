@@ -1,28 +1,32 @@
-<package>
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
   <name>smach_tutorials</name>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
   <description>
-    This package containes numerous examples of how to use SMACH. See the examples directory.
+    This package contains numerous examples of how to use SMACH. See the examples directory.
   </description>
-  <author>Jonathan Bohren</author>
   <maintainer email="rhaschke@techfak.uni-bielefeld.de">Robert Haschke</maintainer>
   <license>BSD</license>
 
   <url>http://ros.org/wiki/smach_tutorials</url>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
 
-  <run_depend>rospy</run_depend>
-  <run_depend>smach</run_depend>
-  <run_depend>smach_ros</run_depend>
+  <depend>action_msgs</depend>
 
-  <run_depend>turtlesim</run_depend>
-  <!-- <run_depend>turtle_actionlib</run_depend> -->
+  <exec_depend>smach_ros</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
 
-  <run_depend>actionlib</run_depend>
-  <run_depend>actionlib_msgs</run_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
 
   <export>
+    <build_type>ament_python</build_type>
+    <build_type>ament_cmake</build_type>
   </export>
 
 </package>
