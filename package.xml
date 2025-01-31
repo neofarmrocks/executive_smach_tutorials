@@ -15,6 +15,7 @@
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
 
   <depend>action_msgs</depend>
+  <depend>rclpy</depend>
 
   <exec_depend>smach_ros</exec_depend>
   <exec_depend>rosidl_default_runtime</exec_depend>
