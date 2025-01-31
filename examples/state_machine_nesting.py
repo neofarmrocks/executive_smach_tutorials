@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Description:
     Create one state machine, put a state in it that sets something in the

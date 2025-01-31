@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Description:
     Create a two-state state machine where one state writes to userdata and

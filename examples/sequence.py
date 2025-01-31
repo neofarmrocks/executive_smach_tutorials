@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Description:
     Create a simple 3-state state sequence. A Sequence is a StateMachine
